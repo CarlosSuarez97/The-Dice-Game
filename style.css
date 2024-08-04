@@ -1,0 +1,65 @@
+body, #player1, #player2 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dices {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #90EE90;
+    font-size: 6rem;
+}
+
+h3, h2, #results {
+    color: #90EE90;
+    font-size: 4rem;
+}
+
+@media(max-width: 414px) {
+    #dices {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3, h2, #results {
+        font-size: 1.5rem;
+    }
+
+    img {
+        width: 3rem;
+    }
+}
+
+@media(max-width: 1280px) {
+    #dices {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3, h2, #results {
+        font-size: 1.5rem;
+    }
+
+    img {
+        width: 6rem;
+    }
+}
